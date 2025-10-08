@@ -4,7 +4,7 @@
 # Script Name:    k8s_installer.sh
 # Description:    This script to create a kubernetes cluster
 # Usage:          ./k8s_installer
-# Author:         [Safouene Raddaoui
+# Author:         [Ghassen Riahi]
 # Date:           [09/05/2024]
 # Version:        1.0.0
 ################################################################################
@@ -405,6 +405,7 @@ cat << EOF > roles/update-k8s/tasks/main.yaml
     daemon_reload: yes
 
 EOF
+
 
 
 echo "All files and directories created successfully."
